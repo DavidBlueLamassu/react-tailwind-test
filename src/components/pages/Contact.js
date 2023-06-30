@@ -53,7 +53,7 @@ const [nameState, setNameState] = useState ({
         <a href="https://github.com/DavidBlueLamassu" className="hover:text-red-600 w-40 text-center">Github Profile</a>
         <a href="https://www.linkedin.com/in/david-adams-922022a1/" className="hover:text-red-600 w-40 text-center">LinkedIn Page</a>
         <a href="mailto:dra21@cam.ac.uk" className="hover:text-red-600 w-40 text-center">E-mail</a>
-        <a href="https://drive.google.com/file/d/1bzNSK8dZJcKRyuq8AdRfgVmCGf3MVq90/view" className="hover:text-red-600 w-40 text-center">CV</a>
+        <a href="https://docs.google.com/document/d/1KVVA3nvT_2X9WLbpMoHfv00MPh3Gm3hVAwLz8Ugzd54/edit?usp=sharing" className="hover:text-red-600 w-40 text-center">CV</a>
       </article>
       <form onSubmit={(e) => {
           let name = e.target.name.value;
